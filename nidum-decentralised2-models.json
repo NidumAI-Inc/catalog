@@ -3,12 +3,7 @@
   "models": [
     {
       "id": "nidum_foundational_model_text",
-      "name": "Nidum foundational model text"
-    },
-    {
-      "id": "nidum_foundational_model_text_and_vision",
-      "name": "Nidum foundational model text and vision",
-      "model_mode": "vision"
+      "name": "DeepSeek R1 is hosted in the Nidum decentralized ecosystem."
     }
   ]
 }
