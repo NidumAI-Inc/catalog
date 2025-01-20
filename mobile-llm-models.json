@@ -233,49 +233,6 @@
             ]
         }
     },
-{
-  "id": "DeepSeek-R1-Distill-Llama-8B-Q2_K_L",
-  "name": "DeepSeek-R1-Distill-Llama-8B (Q2_K_L)",
-  "type": "Llama",
-  "size": "3.95",
-  "params": "8",
-  "isDownloaded": false,
-  "downloadUrl": "https://huggingface.co/unsloth/DeepSeek-R1-Distill-Llama-8B-GGUF/resolve/main/DeepSeek-R1-Distill-Llama-8B-Q2_K_L.gguf?download=true",
-  "hfUrl": "https://huggingface.co/unsloth/DeepSeek-R1-Distill-Llama-8B-GGUF",
-  "progress": 0,
-  "filename": "DeepSeek-R1-Distill-Llama-8B-Q2_K_L.gguf",
-  "isLocal": false,
-  "info_url": "https://huggingface.co/unsloth/DeepSeek-R1-Distill-Llama-8B-GGUF",
-  "description": "We introduce our first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1. DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrated remarkable performance on reasoning. With RL, DeepSeek-R1-Zero naturally emerged with numerous powerful and interesting reasoning behaviors. However, DeepSeek-R1-Zero encounters challenges such as endless repetition, poor readability, and language mixing.",
-  "defaultChatTemplate": {
-    "addBosToken": true,
-    "addEosToken": false,
-    "bosToken": "<s>",
-    "eosToken": "</s>",
-    "chatTemplate": "{% for message in messages %}{%- if message.role == 'system' -%}{{ bosToken + 'System: ' + message.content + eosToken }}{%- elif message.role == 'user' -%}{{ bosToken + 'User: ' + message.content + eosToken }}{%- elif message.role == 'assistant' -%}{{ bosToken + 'Assistant: ' + message.content + eosToken }}{%- endif -%}{%- endfor -%}{{ bosToken + 'Assistant: ' if addGenerationPrompt else eosToken }}"
-  },
-  "completionSettings": {
-    "prompt": "",
-    "n_predict": 500,
-    "temperature": 0.5,
-    "top_k": 40,
-    "top_p": 0.95,
-    "tfs_z": 1,
-    "typical_p": 1,
-    "penalty_last_n": 64,
-    "penalty_repeat": 1,
-    "penalty_freq": 0,
-    "penalty_present": 0,
-    "mirostat": 0,
-    "mirostat_tau": 5,
-    "mirostat_eta": 0.1,
-    "penalize_nl": false,
-    "seed": 0,
-    "n_probs": 0,
-    "stop": ["</s>"]
-  }
-}
-    ,
     {
         "id": "llama-3.2-3b-instruct-q4_k_m.gguf",
         "name": "llama-3.2-3b-instruct (Q4_K)",
