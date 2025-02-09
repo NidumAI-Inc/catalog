@@ -1,6 +1,6 @@
 [
   {
-    "id": "/mnt/local/Deepseek-r1-llama",
+    "id": "/mnt/local/DeepSeek-R1",
     "name": "DeepSeek R1 on Nidum Decentralized Cluster 671B",
     "url": "https://llm.nidum.ai:8000/v1/chat/completions",
     "stream": true
