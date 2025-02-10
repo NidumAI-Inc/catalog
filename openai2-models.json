@@ -9,18 +9,22 @@
   },
   {
     "name": "o1",
-    "id": "o1-2024-12-17"
+    "id": "o1-2024-12-17",
+    "type": "reasoning"
   },
   {
     "name": "o1-mini",
-    "id": "o1-mini-2024-09-12"
+    "id": "o1-mini-2024-09-12",
+    "type": "reasoning"
   },
   {
     "name": "o3-mini",
-    "id": "o3-mini-2025-01-31"
+    "id": "o3-mini-2025-01-31",
+    "type": "reasoning"
   },
   {
     "name": "o1-preview",
-    "id": "o1-preview-2024-09-12"
+    "id": "o1-preview-2024-09-12",
+    "type": "reasoning"
   }
 ]
