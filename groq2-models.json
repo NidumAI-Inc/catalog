@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Meta Llama 3.3 70B",
+    "id": "llama-3.3-70b-versatile"
+  },
+  {
+    "name": "Meta Llama 3.1 8B",
+    "id": "llama-3.1-8b-instant"
+  },
+  {
+    "name": "Mixtral 8x7B",
+    "id": "mixtral-8x7b-32768"
+  },
+  {
+    "name": "Gemma 2 9B",
+    "id": "gemma2-9b-it"
+  },
+  {
+    "name": "Deepseek R1 Llama 70B",
+    "id": "deepseek-r1-distill-llama-70b"
+  }
+]
