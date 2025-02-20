@@ -7,5 +7,14 @@
     "reasoningPattern": "words",
     "reasoningStartWord": "<think>",
     "reasoningEndWord": "</think>"
+  },
+{
+    "id": "emsi/r1-1776",
+    "name": "r1-1776 Uncensored Nidum Decentralized Cluster 671B",
+    "url": "https://llm.nidum.ai:8235/v1/chat/completions",
+    "stream": true,
+    "reasoningPattern": "words",
+    "reasoningStartWord": "<think>",
+    "reasoningEndWord": "</think>"
   }
 ]
