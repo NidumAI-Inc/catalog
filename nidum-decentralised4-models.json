@@ -1,17 +1,17 @@
 [
-{
-    "id": "huihui_ai/deepseek-r1-abliterated:70b",
-    "name": "DeepSeek R1 Uncensored Nidum Decentralized Cluster 70B",
-    "url": "https://videoapi.nidum.ai:8235/v1/chat/completions",
+    {
+    "id": "emsi/r1-1776",
+    "name": "r1-1776 Uncensored Nidum Decentralized Cluster 671B",
+    "url": "https://llm.nidum.ai:8235/v1/chat/completions",
     "stream": true,
     "reasoningPattern": "words",
     "reasoningStartWord": "<think>",
     "reasoningEndWord": "</think>"
   },
 {
-    "id": "emsi/r1-1776",
-    "name": "r1-1776 Uncensored Nidum Decentralized Cluster 671B",
-    "url": "https://llm.nidum.ai:8235/v1/chat/completions",
+    "id": "huihui_ai/deepseek-r1-abliterated:70b",
+    "name": "DeepSeek R1 Uncensored Nidum Decentralized Cluster 70B",
+    "url": "https://videoapi.nidum.ai:8235/v1/chat/completions",
     "stream": true,
     "reasoningPattern": "words",
     "reasoningStartWord": "<think>",
