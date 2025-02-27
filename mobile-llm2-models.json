@@ -3,8 +3,8 @@
     "id": "nidum/Nidum-3.2-3B-Uncensored-GGUF",
     "name": "Nidum-3B-Uncensored (Q4_K_M)",
     "type": "Llama",
-    "size": 2167956500,
-    "params": 3445654257,
+    "size": 2019377632,
+    "params": 3212749888,
     "isDownloaded": false,
     "downloadUrl": "https://huggingface.co/nidum/Nidum-Llama-3.2-3B-Uncensored-GGUF/resolve/main/model-Q4_K_M.gguf?download=true",
     "hfUrl": "https://huggingface.co/nidum/Nidum-Llama-3.2-3B-Uncensored-GGUF",
@@ -84,11 +84,11 @@
     "hfModelFile": {
       "rfilename": "model-Q4_K_M.gguf",
       "url": "https://huggingface.co/nidum/Nidum-Llama-3.2-3B-Uncensored-GGUF",
-      "size": 2167956500,
-      "oid": "",
+      "size": 2019377632,
+      "oid": "682af0efb9e8ab14305c3b4de7d7a46c64b7bd84",
       "lfs": {
-        "oid": "",
-        "size": 2167956500,
+        "oid": "f71ffc4383890374d140a69cd8d6da6179ab4cc00cc9609deadcb3c8766bb387",
+        "size": 2019377632,
         "pointerSize": 135
       },
       "canFitInStorage": true
@@ -380,8 +380,8 @@
     "id": "llama-3.2-3b-instruct-q4_k_m.gguf",
     "name": "llama-3.2-3b-instruct (Q4_K)",
     "type": "Llama",
-    "size": 2167956500,
-    "params": 3445654257,
+    "size": 2019373920,
+    "params": 3212749888,
     "isDownloaded": false,
     "downloadUrl": "https://huggingface.co/hugging-quants/Llama-3.2-3B-Instruct-Q4_K_M-GGUF/resolve/main/llama-3.2-3b-instruct-q4_k_m.gguf?download=true",
     "hfUrl": "https://huggingface.co/hugging-quants/Llama-3.2-3B-Instruct-Q4_K_M-GGUF",
@@ -462,11 +462,11 @@
     "hfModelFile": {
       "rfilename": "llama-3.2-3b-instruct-q4_k_m.gguf",
       "url": "https://huggingface.co/hugging-quants/Llama-3.2-3B-Instruct-Q4_K_M-GGUF",
-      "size": 2167956500,
-      "oid": "",
+      "size": 2019373920,
+      "oid": "6f2ebeff38eb7e6a148b68f966d84fb9fcfaf379",
       "lfs": {
-        "oid": "",
-        "size": 2167956500,
+        "oid": "c55a83bfb6396799337853ca69918a0b9bbb2917621078c34570bc17d20fd7a1",
+        "size": 2019373920,
         "pointerSize": 135
       },
       "canFitInStorage": true
@@ -570,8 +570,8 @@
     "id": "llama-3.2-3b-instruct-q8_0.gguf",
     "name": "llama-3.2-3b-instruct (q8_k)",
     "type": "Llama",
-    "size": 3671384045,
-    "params": 3445654257,
+    "size": 3421895520,
+    "params": 3212749888,
     "isDownloaded": false,
     "downloadUrl": "https://huggingface.co/hugging-quants/Llama-3.2-3B-Instruct-Q8_0-GGUF/resolve/main/llama-3.2-3b-instruct-q8_0.gguf?download=true",
     "hfUrl": "https://huggingface.co/hugging-quants/Llama-3.2-3B-Instruct-Q8_0-GGUF",
@@ -651,11 +651,11 @@
     "hfModelFile": {
       "rfilename": "llama-3.2-3b-instruct-q8_0.gguf",
       "url": "https://huggingface.co/hugging-quants/Llama-3.2-3B-Instruct-Q8_0-GGUF",
-      "size": 3671384045,
+      "size": 3421895520,
       "oid": "",
       "lfs": {
-        "oid": "",
-        "size": 3671384045,
+        "oid": "51725f77f997a5080c3d8dd66e073da22ddf48ab5264f21f05ded9b202c3680e",
+        "size": 3421895520,
         "pointerSize": 135
       },
       "canFitInStorage": true
