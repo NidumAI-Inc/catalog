@@ -652,7 +652,7 @@
       "rfilename": "llama-3.2-3b-instruct-q8_0.gguf",
       "url": "https://huggingface.co/hugging-quants/Llama-3.2-3B-Instruct-Q8_0-GGUF",
       "size": 3421895520,
-      "oid": "",
+      "oid": "632404dadfd2185ad6653ed4cc9ec512d5816c76",
       "lfs": {
         "oid": "51725f77f997a5080c3d8dd66e073da22ddf48ab5264f21f05ded9b202c3680e",
         "size": 3421895520,
