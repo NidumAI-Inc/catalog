@@ -675,7 +675,6 @@
     "progress": 0,
     "filename": "DeepSeek-R1-Distill-Qwen-1.5B-Q8_0.gguf",
     "isLocal": false,
-    "origin": "hf",
     "defaultChatTemplate": {
       "addBosToken": false,
       "addEosToken": false,
@@ -771,7 +770,6 @@
     "progress": 0,
     "filename": "DeepSeek-R1-Distill-Qwen-1.5B-Q4_K_M.gguf",
     "isLocal": false,
-    "origin": "hf",
     "defaultChatTemplate": {
       "addBosToken": false,
       "addEosToken": false,
