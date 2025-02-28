@@ -660,5 +660,197 @@
       },
       "canFitInStorage": true
     }
+  },
+  {
+    "id": "unsloth/DeepSeek-R1-Distill-Qwen-1.5B-GGUF/DeepSeek-R1-Distill-Qwen-1.5B-Q8_0.gguf",
+    "type": "DeepSeek",
+    "author": "unsloth",
+    "name": "DeepSeek-R1-Distill-Qwen-1.5B-Q8_0.",
+    "description": "",
+    "size": 1894531968,
+    "params": 1777088000,
+    "isDownloaded": false,
+    "downloadUrl": "https://huggingface.co/unsloth/DeepSeek-R1-Distill-Qwen-1.5B-GGUF/resolve/main/DeepSeek-R1-Distill-Qwen-1.5B-Q8_0.gguf",
+    "hfUrl": "https://huggingface.co/unsloth/DeepSeek-R1-Distill-Qwen-1.5B-GGUF",
+    "progress": 0,
+    "filename": "DeepSeek-R1-Distill-Qwen-1.5B-Q8_0.gguf",
+    "isLocal": false,
+    "origin": "hf",
+    "defaultChatTemplate": {
+      "addBosToken": false,
+      "addEosToken": false,
+      "bosToken": "<|begin▁of▁sentence|>",
+      "eosToken": "<|end▁of▁sentence|>",
+      "chatTemplate": "",
+      "addGenerationPrompt": true,
+      "systemPrompt": "",
+      "name": "custom"
+    },
+    "chatTemplate": {
+      "addBosToken": false,
+      "addEosToken": false,
+      "bosToken": "<|begin▁of▁sentence|>",
+      "eosToken": "<|end▁of▁sentence|>",
+      "chatTemplate": "",
+      "addGenerationPrompt": true,
+      "systemPrompt": "",
+      "name": "custom"
+    },
+    "defaultCompletionSettings": {
+      "prompt": "",
+      "n_predict": 1024,
+      "temperature": 0.7,
+      "top_k": 40,
+      "top_p": 0.95,
+      "min_p": 0.05,
+      "typical_p": 1,
+      "penalty_last_n": 64,
+      "penalty_repeat": 1,
+      "penalty_freq": 0,
+      "penalty_present": 0,
+      "mirostat": 0,
+      "mirostat_tau": 5,
+      "mirostat_eta": 0.1,
+      "seed": -1,
+      "n_probs": 0,
+      "stop": [
+        "<|end▁of▁sentence|>"
+      ]
+    },
+    "completionSettings": {
+      "prompt": "",
+      "n_predict": 1024,
+      "temperature": 0.7,
+      "top_k": 40,
+      "top_p": 0.95,
+      "min_p": 0.05,
+      "typical_p": 1,
+      "penalty_last_n": 64,
+      "penalty_repeat": 1,
+      "penalty_freq": 0,
+      "penalty_present": 0,
+      "mirostat": 0,
+      "mirostat_tau": 5,
+      "mirostat_eta": 0.1,
+      "seed": -1,
+      "n_probs": 0,
+      "stop": [
+        "<|end▁of▁sentence|>"
+      ]
+    },
+    "defaultStopWords": [
+      "<|end▁of▁sentence|>"
+    ],
+    "stopWords": [
+      "<|end▁of▁sentence|>"
+    ],
+    "hfModelFile": {
+      "rfilename": "DeepSeek-R1-Distill-Qwen-1.5B-Q8_0.gguf",
+      "url": "https://huggingface.co/unsloth/DeepSeek-R1-Distill-Qwen-1.5B-GGUF/resolve/main/DeepSeek-R1-Distill-Qwen-1.5B-Q8_0.gguf",
+      "size": 1894531968,
+      "oid": "e14ebe5c099c858621e9a01bad3991ef54a1039c",
+      "lfs": {
+        "oid": "af3a3fc64d7d0b18f15f28feabad5718d620dc5626a5c1eabad33ddc2b5d09a9",
+        "size": 1894531968,
+        "pointerSize": 135
+      },
+      "canFitInStorage": true
+    }
+  },
+  {
+    "id": "unsloth/DeepSeek-R1-Distill-Qwen-1.5B-GGUF/DeepSeek-R1-Distill-Qwen-1.5B-Q4_K_M.gguf",
+    "type": "DeepSeek",
+    "author": "unsloth",
+    "name": "DeepSeek-R1-Distill-Qwen-1.5B-Q4_K_M.",
+    "description": "",
+    "size": 1117320576,
+    "params": 1777088000,
+    "isDownloaded": false,
+    "downloadUrl": "https://huggingface.co/unsloth/DeepSeek-R1-Distill-Qwen-1.5B-GGUF/resolve/main/DeepSeek-R1-Distill-Qwen-1.5B-Q4_K_M.gguf",
+    "hfUrl": "https://huggingface.co/unsloth/DeepSeek-R1-Distill-Qwen-1.5B-GGUF",
+    "progress": 0,
+    "filename": "DeepSeek-R1-Distill-Qwen-1.5B-Q4_K_M.gguf",
+    "isLocal": false,
+    "origin": "hf",
+    "defaultChatTemplate": {
+      "addBosToken": false,
+      "addEosToken": false,
+      "bosToken": "<|begin▁of▁sentence|>",
+      "eosToken": "<|end▁of▁sentence|>",
+      "chatTemplate": "",
+      "addGenerationPrompt": true,
+      "systemPrompt": "",
+      "name": "custom"
+    },
+    "chatTemplate": {
+      "addBosToken": false,
+      "addEosToken": false,
+      "bosToken": "<|begin▁of▁sentence|>",
+      "eosToken": "<|end▁of▁sentence|>",
+      "chatTemplate": "",
+      "addGenerationPrompt": true,
+      "systemPrompt": "",
+      "name": "custom"
+    },
+    "defaultCompletionSettings": {
+      "prompt": "",
+      "n_predict": 1024,
+      "temperature": 0.7,
+      "top_k": 40,
+      "top_p": 0.95,
+      "min_p": 0.05,
+      "typical_p": 1,
+      "penalty_last_n": 64,
+      "penalty_repeat": 1,
+      "penalty_freq": 0,
+      "penalty_present": 0,
+      "mirostat": 0,
+      "mirostat_tau": 5,
+      "mirostat_eta": 0.1,
+      "seed": -1,
+      "n_probs": 0,
+      "stop": [
+        "<|end▁of▁sentence|>"
+      ]
+    },
+    "completionSettings": {
+      "prompt": "",
+      "n_predict": 1024,
+      "temperature": 0.7,
+      "top_k": 40,
+      "top_p": 0.95,
+      "min_p": 0.05,
+      "typical_p": 1,
+      "penalty_last_n": 64,
+      "penalty_repeat": 1,
+      "penalty_freq": 0,
+      "penalty_present": 0,
+      "mirostat": 0,
+      "mirostat_tau": 5,
+      "mirostat_eta": 0.1,
+      "seed": -1,
+      "n_probs": 0,
+      "stop": [
+        "<|end▁of▁sentence|>"
+      ]
+    },
+    "defaultStopWords": [
+      "<|end▁of▁sentence|>"
+    ],
+    "stopWords": [
+      "<|end▁of▁sentence|>"
+    ],
+    "hfModelFile": {
+      "rfilename": "DeepSeek-R1-Distill-Qwen-1.5B-Q4_K_M.gguf",
+      "url": "https://huggingface.co/unsloth/DeepSeek-R1-Distill-Qwen-1.5B-GGUF/resolve/main/DeepSeek-R1-Distill-Qwen-1.5B-Q4_K_M.gguf",
+      "size": 1117320576,
+      "oid": "00fbe049d87bca159701c4196ea924be173a5fdc",
+      "lfs": {
+        "oid": "c2c43b6018cf7700ce0ddee8807deb1a9a26758ef878232f3a142d16df81f0fe",
+        "size": 1117320576,
+        "pointerSize": 135
+      },
+      "canFitInStorage": true
+    }
   }
 ]
