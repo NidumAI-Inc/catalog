@@ -713,7 +713,7 @@
       "seed": -1,
       "n_probs": 0,
       "stop": [
-        "<|end▁of▁sentence|>"
+        "< | end▁of▁sentence | >"
       ]
     },
     "completionSettings": {
@@ -734,14 +734,14 @@
       "seed": -1,
       "n_probs": 0,
       "stop": [
-        "<|end▁of▁sentence|>"
+        "< | end▁of▁sentence | >"
       ]
     },
     "defaultStopWords": [
-      "<|end▁of▁sentence|>"
+      "< | end▁of▁sentence | >"
     ],
     "stopWords": [
-      "<|end▁of▁sentence|>"
+      "< | end▁of▁sentence | >"
     ],
     "hfModelFile": {
       "rfilename": "DeepSeek-R1-Distill-Qwen-1.5B-Q8_0.gguf",
@@ -808,7 +808,7 @@
       "seed": -1,
       "n_probs": 0,
       "stop": [
-        "<|end▁of▁sentence|>"
+        "< | end▁of▁sentence | >"
       ]
     },
     "completionSettings": {
@@ -829,14 +829,14 @@
       "seed": -1,
       "n_probs": 0,
       "stop": [
-        "<|end▁of▁sentence|>"
+        "< | end▁of▁sentence | >"
       ]
     },
     "defaultStopWords": [
-      "<|end▁of▁sentence|>"
+      "< | end▁of▁sentence | >"
     ],
     "stopWords": [
-      "<|end▁of▁sentence|>"
+      "< | end▁of▁sentence | >"
     ],
     "hfModelFile": {
       "rfilename": "DeepSeek-R1-Distill-Qwen-1.5B-Q4_K_M.gguf",
