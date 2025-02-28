@@ -145,7 +145,8 @@
       "seed": -1,
       "n_probs": 0,
       "stop": [
-        "</s>"
+        "</s>",
+        "<end_of_turn><eos>"
       ]
     },
     "completionSettings": {
@@ -166,14 +167,17 @@
       "seed": -1,
       "n_probs": 0,
       "stop": [
-        "</s>"
+        "</s>",
+        "<end_of_turn><eos>"
       ]
     },
     "defaultStopWords": [
-      "<end_of_turn>"
+      "<end_of_turn>",
+      "<end_of_turn><eos>"
     ],
     "stopWords": [
-      "<end_of_turn>"
+      "<end_of_turn>",
+      "<end_of_turn><eos>"
     ],
     "hfModelFile": {
       "rfilename": "gemma-2-2b-it-Q6_K.gguf",
@@ -333,7 +337,8 @@
       "seed": -1,
       "n_probs": 0,
       "stop": [
-        "</s>"
+        "</s>",
+        "<|eot_id|>"
       ]
     },
     "completionSettings": {
@@ -354,7 +359,8 @@
       "seed": -1,
       "n_probs": 0,
       "stop": [
-        "</s>"
+        "</s>",
+        "<|eot_id|>"
       ]
     },
     "defaultStopWords": [
@@ -523,7 +529,8 @@
       "seed": -1,
       "n_probs": 0,
       "stop": [
-        "</s>"
+        "</s>",
+        "<|eot_id|>"
       ]
     },
     "completionSettings": {
@@ -544,7 +551,8 @@
       "seed": -1,
       "n_probs": 0,
       "stop": [
-        "</s>"
+        "</s>",
+        "<|eot_id|>"
       ]
     },
     "defaultStopWords": [
@@ -713,7 +721,10 @@
       "seed": -1,
       "n_probs": 0,
       "stop": [
-        "<|end▁of▁sentence|>"
+        "<｜end▁of▁sentence｜>",
+        "<|end▁of▁sentence|>",
+        "< ｜ end▁of▁sentence ｜ >",
+        "< | end▁of▁sentence | >"
       ]
     },
     "completionSettings": {
@@ -734,14 +745,23 @@
       "seed": -1,
       "n_probs": 0,
       "stop": [
-        "<|end▁of▁sentence|>"
+        "<｜end▁of▁sentence｜>",
+        "<|end▁of▁sentence|>",
+        "< ｜ end▁of▁sentence ｜ >",
+        "< | end▁of▁sentence | >"
       ]
     },
     "defaultStopWords": [
-      "<｜end▁of▁sentence｜>"
+      "<｜end▁of▁sentence｜>",
+      "<|end▁of▁sentence|>",
+      "< ｜ end▁of▁sentence ｜ >",
+      "< | end▁of▁sentence | >"
     ],
     "stopWords": [
-      "<｜end▁of▁sentence｜>"
+      "<｜end▁of▁sentence｜>",
+      "<|end▁of▁sentence|>",
+      "< ｜ end▁of▁sentence ｜ >",
+      "< | end▁of▁sentence | >"
     ],
     "hfModelFile": {
       "rfilename": "DeepSeek-R1-Distill-Qwen-1.5B-Q8_0.gguf",
@@ -808,7 +828,10 @@
       "seed": -1,
       "n_probs": 0,
       "stop": [
-        "<|end▁of▁sentence|>"
+        "<｜end▁of▁sentence｜>",
+        "<|end▁of▁sentence|>",
+        "< ｜ end▁of▁sentence ｜ >",
+        "< | end▁of▁sentence | >"
       ]
     },
     "completionSettings": {
@@ -829,14 +852,23 @@
       "seed": -1,
       "n_probs": 0,
       "stop": [
-        "<|end▁of▁sentence|>"
+        "<｜end▁of▁sentence｜>",
+        "<|end▁of▁sentence|>",
+        "< ｜ end▁of▁sentence ｜ >",
+        "< | end▁of▁sentence | >"
       ]
     },
     "defaultStopWords": [
-      "<｜end▁of▁sentence｜>"
+      "<｜end▁of▁sentence｜>",
+      "<|end▁of▁sentence|>",
+      "< ｜ end▁of▁sentence ｜ >",
+      "< | end▁of▁sentence | >"
     ],
     "stopWords": [
-      "<｜end▁of▁sentence｜>"
+      "<｜end▁of▁sentence｜>",
+      "<|end▁of▁sentence|>",
+      "< ｜ end▁of▁sentence ｜ >",
+      "< | end▁of▁sentence | >"
     ],
     "hfModelFile": {
       "rfilename": "DeepSeek-R1-Distill-Qwen-1.5B-Q4_K_M.gguf",
