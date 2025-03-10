@@ -7,14 +7,5 @@
      "reasoningPattern": "words",
      "reasoningStartWord": "<think>",
      "reasoningEndWord": "</think>"
-   },
-   {
-     "id": "/mnt/local/DeepSeek-R1",
-     "name": "DeepSeek R1 on Nidum Decentralized Cluster 671B",
-     "url": "https://llm.nidum.ai:8235/stream",
-     "stream": true,
-     "reasoningPattern": "words",
-     "reasoningStartWord": "<think>",
-     "reasoningEndWord": "</think>"
    }
 ]
