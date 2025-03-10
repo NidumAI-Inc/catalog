@@ -1,11 +1,11 @@
 [
-
-     {
-     "id": "/mnt/local/DeepSeek-R1",
-     "name": "DeepSeek R1 on Nidum Decentralized Cluster 671B",
-     "url": "https://llm.nidum.ai:8235/v1/chat/completions",
-     "stream": true,
-     "reasoningPattern": "key",
-     "reasoningKey": "reasoning_content"
-   }
+{
+    "url": "https://llm.nidum.ai:8235/v1/chat/completions",
+    "stream": true,
+    "id": "deepSeek-r1-1776-uncensored-nidum-decentralized-cluster",
+    "name": "DeepSeek R1-1776 Uncensored Nidum Decentralized Cluster",
+    "reasoningPattern": "words",
+    "reasoningStartWord": "<think>",
+    "reasoningEndWord": "</think>"
+  }
 ]
