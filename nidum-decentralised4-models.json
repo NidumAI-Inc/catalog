@@ -13,7 +13,8 @@
      "name": "DeepSeek R1 on Nidum Decentralized Cluster 671B",
      "url": "https://llm.nidum.ai:8235/stream",
      "stream": true,
-     "reasoningPattern": "key",
-     "reasoningKey": "reasoning_content"
+     "reasoningPattern": "words",
+     "reasoningStartWord": "<think>",
+     "reasoningEndWord": "</think>"
    }
 ]
