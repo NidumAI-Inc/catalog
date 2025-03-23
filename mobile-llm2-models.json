@@ -94,6 +94,92 @@
       "canFitInStorage": true
     }
   },{
+  "id": "huggingfacetb/SmolLM2-1.7B-Instruct/smollm2-1.7b-instruct-q4_k_m.gguf",
+  "type": "SmolLM",
+  "author": "HuggingFaceTB",
+  "name": "SmolLM2-1.7B-Instruct-Q4",
+  "description": "SmolLM2 1.7B instruct tuned, quantized with Q4_K_M",
+  "size": 1060000000,
+  "params": 1700000000,
+  "isDownloaded": false,
+  "downloadUrl": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct-GGUF/resolve/main/smollm2-1.7b-instruct-q4_k_m.gguf",
+  "hfUrl": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct-GGUF",
+  "progress": 0,
+  "filename": "smollm2-1.7b-instruct-q4_k_m.gguf",
+  "isLocal": false,
+  "defaultChatTemplate": {
+    "addBosToken": false,
+    "addEosToken": false,
+    "bosToken": "<|im_start|>",
+    "eosToken": "<|im_end|>",
+    "chatTemplate": "{% for message in messages %}{{ '<|im_start|>' + message['role'] + '\\n' + message['content'] + '<|im_end|>' }}{% endfor %}{% if add_generation_prompt %}<|im_start|>assistant\n{% endif %}",
+    "addGenerationPrompt": true,
+    "systemPrompt": "",
+    "name": "smolLM2"
+  },
+  "chatTemplate": {
+    "addBosToken": false,
+    "addEosToken": false,
+    "bosToken": "<|im_start|>",
+    "eosToken": "<|im_end|>",
+    "chatTemplate": "{% for message in messages %}{{ '<|im_start|>' + message['role'] + '\\n' + message['content'] + '<|im_end|>' }}{% endfor %}{% if add_generation_prompt %}<|im_start|>assistant\n{% endif %}",
+    "addGenerationPrompt": true,
+    "systemPrompt": "",
+    "name": "smolLM2"
+  },
+  "defaultCompletionSettings": {
+    "prompt": "",
+    "n_predict": 1024,
+    "temperature": 0.7,
+    "top_k": 40,
+    "top_p": 0.95,
+    "min_p": 0.05,
+    "typical_p": 1,
+    "penalty_last_n": 64,
+    "penalty_repeat": 1,
+    "penalty_freq": 0,
+    "penalty_present": 0,
+    "mirostat": 0,
+    "mirostat_tau": 5,
+    "mirostat_eta": 0.1,
+    "seed": -1,
+    "n_probs": 0,
+    "stop": ["<|im_end|>"]
+  },
+  "completionSettings": {
+    "prompt": "",
+    "n_predict": 1024,
+    "temperature": 0.7,
+    "top_k": 40,
+    "top_p": 0.95,
+    "min_p": 0.05,
+    "typical_p": 1,
+    "penalty_last_n": 64,
+    "penalty_repeat": 1,
+    "penalty_freq": 0,
+    "penalty_present": 0,
+    "mirostat": 0,
+    "mirostat_tau": 5,
+    "mirostat_eta": 0.1,
+    "seed": -1,
+    "n_probs": 0,
+    "stop": ["<|im_end|>"]
+  },
+  "defaultStopWords": ["<|im_end|>"],
+  "stopWords": ["<|im_end|>"],
+  "hfModelFile": {
+    "rfilename": "smollm2-1.7b-instruct-q4_k_m.gguf",
+    "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct-GGUF/resolve/main/smollm2-1.7b-instruct-q4_k_m.gguf",
+    "size": 1060000000,
+    "oid": "decd2598bc2c8ed08c19adc3c8fdd461ee19ed5708679d1c54ef54a5a30d4f33",
+    "lfs": {
+      "oid": "decd2598bc2c8ed08c19adc3c8fdd461ee19ed5708679d1c54ef54a5a30d4f33",
+      "size": 1060000000,
+      "pointerSize": 135
+    },
+    "canFitInStorage": true
+  }
+},{
     "id": "unsloth/DeepSeek-R1-Distill-Qwen-1.5B-GGUF/DeepSeek-R1-Distill-Qwen-1.5B-Q8_0.gguf",
     "type": "DeepSeek",
     "author": "unsloth",
