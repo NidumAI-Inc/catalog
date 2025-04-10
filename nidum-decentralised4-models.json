@@ -7,5 +7,13 @@
      "reasoningPattern": "words",
      "reasoningStartWord": "<think>",
      "reasoningEndWord": "</think>"
+   },
+  {
+     "id": "/mnt/local/DeepSeek-R1",
+     "name": "DeepSeek R1 on Nidum Decentralized Cluster 671B",
+     "url": "https://v3backend.nidum.ai/api/chat/v3/r1/stream",
+     "stream": true,
+     "reasoningPattern": "key",
+     "reasoningKey": "reasoning_content"
    }
 ]
