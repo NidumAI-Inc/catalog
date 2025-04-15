@@ -7,5 +7,14 @@
      "reasoningPattern": "words",
      "reasoningStartWord": "<think>",
      "reasoningEndWord": "</think>"
+   },
+      {
+     "id": "llama-3.1-nemotron-ultra-253b",
+     "name": "llama 3.1 nemotron ultra 253b",
+     "url": "https://iythr9hevf6d.chain.nidum.ai/api/v1/chat/completions",
+     "stream": false,
+     "reasoningPattern": "words",
+     "reasoningStartWord": "<think>",
+     "reasoningEndWord": "</think>"
    }
 ]
