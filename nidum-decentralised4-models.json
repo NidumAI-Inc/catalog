@@ -1,20 +1,28 @@
-[
-   {
-     "id": "/mnt/local/DeepSeek-R1",
-     "name": "DeepSeek R1 on Nidum Decentralized Cluster 671B",
-     "url": "https://v3backend.nidum.ai/api/chat/v3/r1/stream",
-     "stream": true,
-     "reasoningPattern": "words",
-     "reasoningStartWord": "<think>",
-     "reasoningEndWord": "</think>"
-   },
-      {
-     "id": "llama-3.1-nemotron-ultra-253b",
+[{
+     "id": "nvidia",
      "name": "llama 3.1 nemotron ultra 253b",
      "url": "https://iythr9hevf6d.chain.nidum.ai/api/v1/chat/completions",
      "stream": false,
      "reasoningPattern": "words",
      "reasoningStartWord": "<think>",
      "reasoningEndWord": "</think>"
-   }
+   },
+   {
+     "id": "/mnt/local/DeepSeek-R1",
+     "name": "DeepSeek R1",
+     "url": "https://v3backend.nidum.ai/api/chat/v3/r1/stream",
+     "stream": true,
+     "reasoningPattern": "words",
+     "reasoningStartWord": "<think>",
+     "reasoningEndWord": "</think>"
+   },
+   {
+     "id": "llama4",
+     "name": "llama 4 scout",
+     "url": "https://iythr9hevf6d.chain.nidum.ai/api/v1/chat/completions",
+     "stream": false,
+     "reasoningPattern": "words",
+     "reasoningStartWord": "<think>",
+     "reasoningEndWord": "</think>"
+   } 
 ]
