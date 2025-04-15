@@ -1,6 +1,6 @@
 [{
       "id": "nvidia",
-     "name": "llama 3.1 nemotron ultra 253b",
+     "name": "Llama 3.1 Nemotron Ultra 253B",
      "url": "https://sqagpvkzam66.chain.nidum.ai/api/v1/chat/completions",
      "stream": false,
      "reasoningPattern": "words",
@@ -9,7 +9,7 @@
    },
         {
      "id": "llama4",
-     "name": "llama 4 scout",
+     "name": "Llama 4 Scout 17B",
      "url": "https://sqagpvkzam66.chain.nidum.ai/api/v1/chat/completions",
      "stream": false,
      "reasoningPattern": "words",
@@ -18,7 +18,7 @@
    } ,
    {
      "id": "/mnt/local/DeepSeek-R1",
-     "name": "DeepSeek R1",
+     "name": "DeepSeek R1 671B",
      "url": "https://v3backend.nidum.ai/api/chat/v3/r1/stream",
      "stream": true,
      "reasoningPattern": "words",
