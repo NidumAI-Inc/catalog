@@ -1,11 +1,15 @@
 [
-{
-    "name": "gpt 4.1 mini",
-    "id": "gpt-4.1-mini"
-  },
   {
     "name": "gpt 4.1",
     "id": "gpt-4.1"
+  },
+    {
+    "name": "gpt 4.1 mini",
+    "id": "gpt-4.1-mini"
+  },
+    {
+    "name": "gpt 4.1 nano",
+    "id": "gpt-4.1-nano"
   },
   {
     "name": "GPT 4o",
