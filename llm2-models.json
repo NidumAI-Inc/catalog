@@ -61,5 +61,16 @@
     "category": "Specialized - Large",
     "description": "DeepSeek-R1 Distill Llama 8B is tuned using RL and excels in reasoning tasks. (Needs 16GB RAM)",
     "info_url": "https://huggingface.co/unsloth/DeepSeek-R1-Distill-Llama-8B-GGUF"
-  }
+  },
+  {
+  "name": "Llama 3.1 Nemotron 8B UltraLong 4M Instruct",
+  "size": "4.93 GB",
+  "id": "llama-3.1-nemotron-8b-ultralong",
+  "file_name": "llama-3.1-nemotron-8b-ultralong-4m-instruct-q4_k_m.gguf",
+  "hf_link": "hf:itlwas/Llama-3.1-Nemotron-8B-UltraLong-4M-Instruct-Q4_K_M-GGUF/llama-3.1-nemotron-8b-ultralong-4m-instruct-q4_k_m.gguf",
+  "category": "Specialized - Medium",
+  "description": "Llama 3.1 Nemotron 8B UltraLong 4M is a special variant optimized for ultra-long context windows up to 4 million tokens, ideal for lengthy document reasoning and summarization. (Requires ~12GB RAM)",
+  "info_url": "https://huggingface.co/itlwas/Llama-3.1-Nemotron-8B-UltraLong-4M-Instruct-Q4_K_M-GGUF"
+}
+
 ]
