@@ -8,7 +8,7 @@
      "reasoningEndWord": "</think>"
    },
            {
-     "id": "/mnt/local/DeepSeek-R1",
+     "id": "/mnt/local/DeepSeekR1",
      "name": "DeepSeek r1 0528 Qwen3 8B",
      "url": "https://v3backend.nidum.ai/api/chat/v3/r1/stream",
      "stream": true,
