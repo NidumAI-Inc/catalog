@@ -1,4 +1,21 @@
-[
+[   {
+     "id": "/mnt/local/DeepSeek-R1",
+     "name": "DeepSeek r1 0528",
+     "url": "https://v3backend.nidum.ai/api/chat/v3/r1/stream",
+     "stream": true,
+     "reasoningPattern": "words",
+     "reasoningStartWord": "<think>",
+     "reasoningEndWord": "</think>"
+   },
+           {
+     "id": "/mnt/local/DeepSeek-R1",
+     "name": "DeepSeek r1 0528 Qwen3 8B",
+     "url": "https://v3backend.nidum.ai/api/chat/v3/r1/stream",
+     "stream": true,
+     "reasoningPattern": "words",
+     "reasoningStartWord": "<think>",
+     "reasoningEndWord": "</think>"
+   }
         {
      "id": "llama4",
      "name": "Llama 4 Scout 17B",
@@ -7,14 +24,5 @@
      "reasoningPattern": "words",
      "reasoningStartWord": "<think>",
      "reasoningEndWord": "</think>"
-   } ,
-   {
-     "id": "/mnt/local/DeepSeek-R1",
-     "name": "DeepSeek r1 0528",
-     "url": "https://v3backend.nidum.ai/api/chat/v3/r1/stream",
-     "stream": true,
-     "reasoningPattern": "words",
-     "reasoningStartWord": "<think>",
-     "reasoningEndWord": "</think>"
-   }
+   } 
 ]
