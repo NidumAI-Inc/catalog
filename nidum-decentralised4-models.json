@@ -10,7 +10,7 @@
    } ,
    {
      "id": "/mnt/local/DeepSeek-R1",
-     "name": "DeepSeek R1 671B",
+     "name": "DeepSeek r1 0528",
      "url": "https://v3backend.nidum.ai/api/chat/v3/r1/stream",
      "stream": true,
      "reasoningPattern": "words",
