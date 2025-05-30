@@ -15,7 +15,7 @@
      "reasoningPattern": "words",
      "reasoningStartWord": "<think>",
      "reasoningEndWord": "</think>"
-   }
+   },
         {
      "id": "llama4",
      "name": "Llama 4 Scout 17B",
